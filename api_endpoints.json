@@ -1,0 +1,14 @@
+{
+  "base_url": "https://fm.uawc.net/public/API",
+  "endpoints": {
+    "login": "/login/user",
+    "logout": "/logout",
+    "home": "/home",
+    "constant": "/constant",
+    "get_person": "/get/person",
+    "create_person": "/create/person",
+    "get_aid_manage": "/get/aid/manage",
+    "confirm_receive": "/set/aid/manage/receive",
+    "get_blocks": "/get/blocks"
+  }
+}

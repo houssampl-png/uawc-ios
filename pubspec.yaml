@@ -1,0 +1,21 @@
+name: uawc_beneficiaries
+description: UAWC beneficiaries iOS/Android Flutter app starter.
+publish_to: "none"
+
+version: 1.0.1+2
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  connectivity_plus: ^6.0.5
+  cupertino_icons: ^1.0.8
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/uawc_logo.png
